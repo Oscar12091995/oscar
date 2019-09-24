@@ -1,0 +1,26 @@
+body{
+    background: #bdc3c7;
+}
+h1, label{
+    background: #9b59b6;
+    text-align: center;
+    color     : #ecf0f1; 
+    border:solid 2px #ecf0f1;
+    
+    font-family: Verdana;
+    padding: 4px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+label{
+    display: block;
+}
+p{
+    color: #e74c3c;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: verdana;
+    text-align: justify;
+}

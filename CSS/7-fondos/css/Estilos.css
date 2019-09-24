@@ -1,0 +1,12 @@
+body{
+    /* background: #48dbfb; */
+    /* background: url('../bonfire.png'); */
+    /* background-repeat: no-repeat;
+    background-position: 150px; */
+    background: rgba(86, 20, 7);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(219, 214, 7)),url('../bonfire.png');  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(219, 214, 7)), url('../bonfire.png'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-repeat: repeat;
+    color: white;
+}

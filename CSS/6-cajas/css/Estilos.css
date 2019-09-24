@@ -1,0 +1,10 @@
+div{
+    background: orange;
+    color: #ecf0f1;
+    width: 40.5%;
+    height: 140px;
+    padding: 30px;
+    margin: 20px;
+    border: 10px solid black;
+    display: inline-block;
+}

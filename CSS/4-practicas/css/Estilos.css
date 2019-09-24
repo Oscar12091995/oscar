@@ -1,0 +1,24 @@
+*{
+    background: black;
+    font: verdana;
+}
+h1{
+    text-align: center;
+    color: white;
+    background: blue;
+    padding: 18px;
+}
+.parrafo1{
+    color: white;
+    font-size: 20px;
+
+}
+.parrafo2{
+    color:green;
+    font-size: 10px;
+}
+a{
+    color: orange;
+    font-size: 25px;
+
+}

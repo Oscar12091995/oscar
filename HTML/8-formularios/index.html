@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    <center><h1>Formularios</h1></center>
+    <hr>
+
+    <form action="inicio.html" method="POST">
+        <p>input de texto:</p>
+        <input type="text" size="50" placeholder="Escribe tu nombre..." required  autofocus>
+
+        <p>Input tipo texto</p>
+        <input type="text" readonly>
+
+        <p>Input tipo texto</p>
+        <input type="text" disabled>
+
+        <p>Input númerico</p>
+        <input type="number" max=3 min=0 placeholder="Escribe del 1 al 3">
+        
+        <p>Tipo correo electronico</p>
+        <input type="email">
+        
+
+        
+        <input type="reset" value="restaurar valores">
+        <input type="submit" value="guardar datos">
+
+        <p>input tipo de color</p>
+        <input type="color">
+
+        <p>Input tipo fecha</p>
+        <input type="date">
+        <hr>
+
+        <p>Input de tiempo</p>
+        <input type="time">
+
+        <p>Tipo de busqueda</p>
+        <input type="search">
+
+        <p>Input de contraseña</p>
+        <input type="password" name="contraseña">
+
+        <p>Input tipo chekbox</p>
+        <input type="checkbox" name="h"> Hombre <br>
+        <input type="checkbox" name="m"> Mujer <br>
+
+        <p>Input radio</p>
+        <input type="radio" name="sexo"> Hombre <br>
+        <input type="radio" name="sexo"> Mujer <br>
+
+        <select name="municipio">
+            <option value="Linares">Linares</option>
+            <option value="Huala">Hualahuises</option>
+            <option value="Montemorelos">Montemorelos</option>
+            
+        </select>
+
+    </form>
+</body>
+</html>
